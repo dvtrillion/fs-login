@@ -7,7 +7,6 @@ const ctrl = require("./home.ctrl");
 
 
 router.get("/", ctrl.main);
-
 router.get("/login", ctrl.login);
 
 
