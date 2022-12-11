@@ -44,6 +44,11 @@ const process = {
         // response.msg = "아이디 또는 비밀번호를 확인하세요"
         return res.json(response);
     },
+    register: (req, res) => {
+        const user = new User(req.body);
+        const response = user.register();
+        return res.json(response);
+    }
 };
 
 module.exports = {
