@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="/css/home/register.css">
+    <script src="/js/home/register.ejs" defer></script>
+</head>
+<body>
+    <section class="signin-form">
+        <h1><img src="/css/images/register-logo.png"></h1>
+        <h2>회원가입</h2>
+        <form action="">
+            <div class="int-area">
+                <input type="text" name="id" id="id" autocomplete="off" required>
+                <label for="id">이름</label>
+            </div>
+            <div class="int-area">
+                <input type="text" name="nick" id="id" autocomplete="off" required>
+                <label for="id">닉네임</label>
+            </div>
+
+            <div class="int-area">
+                <input type="password" name="id" id="psword" autocomplete="off" required>
+                <label for="pw">비밀번호</label>
+            </div>
+            <div class="int-area">
+                <input type="password" name="id" id="confirm-psword" autocomplete="off" required>
+                <label for="pw">비밀번호 확인</label>
+            </div>        
+            <div class="int-area">
+                <input type="tel" name="userphonenumber" id="id" autocomplete="off" pattern="[0-9]{11}" required>
+                <label for="id">연락처</label>
+            </div>
+            <div class="int-area">
+                <input type="text" name="rec" id="id" autocomplete="off" required>
+                <label for="id">추천인 닉네임</label>
+            </div>
+            <div class="btn-area">
+                <button type="submit">가입하기</button>
+            </div>
+        </form>
+        <div class="caption">
+            <ul>
+            <li><a href="/login">이미 회원이신가요? (로그인 페이지)</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
