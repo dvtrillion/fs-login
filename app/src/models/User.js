@@ -22,7 +22,7 @@ class User {
 
     register() {
         const client = this.body;
-        UserStorage.save(client)
+        UserStorage.save(client);
     }
 
 }

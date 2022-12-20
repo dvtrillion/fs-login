@@ -53,9 +53,10 @@ body::before {
     font-size: 20px; color: #fff;
 }
 .btn-area {margin-top: 30px;}
-.btn-area button {
+.btn-area #button {
     width: 100%; height: 50px;
-    font-size: 20px;
+    font-size: 35px;
+    text-align: center;
     background: #fff;
     color:slategrey;
     border: none;

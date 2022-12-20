@@ -7,7 +7,7 @@ const id = document.querySelector("#id"),
     confirmPsword = document.querySelector("confirm-psword"),
     phNumber = document.querySelector("phone-number"),
     reco = document.querySelector("recommander"),
-    registerBtn = document.querySelector("button");
+    registerBtn = document.querySelector("#button");
 
 registerBtn.addEventListener("click", register)
 
