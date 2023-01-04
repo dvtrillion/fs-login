@@ -1,0 +1,7 @@
+{
+    "id": ["admin", "administor"],
+    "psword": ["1234", "qwe12qwe12!"],
+    "name": ["관리자1", "관리자2"],
+    "phone-number": ["00000000000", "00000000000"],
+    "recommander": ["admin", "admin"]
+}
